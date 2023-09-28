@@ -6,7 +6,13 @@ public class Primitive {
         learnFloat();
         learnBoolean();
         learnChar();
-        
+        learnByte();
+    }
+    public static void learnByte(){
+        // interval of size the byte = -128 at 127 positive
+        // smaller type data primitive
+        byte data = 125;
+        System.out.println(data);
     }
 
     public static void learnInteger() {
@@ -24,6 +30,7 @@ public class Primitive {
     public static void learnDouble(){
 
     }
+
     public static void learnChar(){
         char character = 'a';
         char nome []= {'w','i','l','l','i','a','m'}; 
